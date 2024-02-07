@@ -1,0 +1,19 @@
+:root {
+  --darker: #0b132b;
+  --dark: #1c2541;
+  --light: #3a506b;
+  --lighter: #5bc0be;
+}
+
+.header {
+  background: #f9b713;
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
