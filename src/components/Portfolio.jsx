@@ -5,9 +5,9 @@ function Portfolio() {
     <section>
       <h2 id="projects">Projects</h2>
       <ul id="card-spacing">
-        <li class="card">
+        <li className="card">
           <a
-            class="link"
+            className="link"
             href="https://scook9.github.io/module-1-challenge/#search-engine-optimization"
             target="_blank"
           >
@@ -16,34 +16,34 @@ function Portfolio() {
               alt="Module 1 Challenge background photo"
             />
           </a>
-          <h3 class="project-title">Search Engine Optimization (SEO)</h3>
+          <h3 className="project-title">Search Engine Optimization (SEO)</h3>
         </li>
-        <li class="card">
+        <li className="card">
           <a
-            class="link"
+            className="link"
             href="https://scook9.github.io/menYou/"
             target="_blank"
           >
             <img src="./src/assets/menyou.png" alt="menYou project" />
           </a>
-          <h3 class="project-title">menYou</h3>
+          <h3 className="project-title">menYou</h3>
         </li>
-        <li class="card">
+        <li className="card">
           <a
-            class="link"
+            className="link"
             href="https://scook9.github.io/menYou/"
             target="_blank"
           >
             <img src="./src/assets/star-ray-design.png" alt="menYou project" />
           </a>
-          <h3 class="project-title">Star Ray Design</h3>
+          <h3 className="project-title">Star Ray Design</h3>
         </li>
-        <li class="card">
+        <li className="card">
           <img
             src="./src/assets/huma-kabakci-oRk4Ep65tRc-unsplash.jpg"
             alt="Coming soon"
           />
-          <h3 class="project-title">Coming Soon</h3>
+          <h3 className="project-title">EZHomesteading</h3>
         </li>
       </ul>
     </section>

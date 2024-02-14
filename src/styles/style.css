@@ -5,12 +5,19 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
 }
 
+:root {
+  --darker: #0b132b;
+  --dark: #1c2541;
+  --light: #3a506b;
+  --lighter: #5bc0be;
+}
+
 header {
   display: flex;
   padding: 10px;
   font-size: 20px;
-  background-color: rgb(138, 54, 23);
-  border: 2px solid rgb(54, 0, 0);
+  background-color: var(--dark);
+  border: 2px solid var(--lighter);
   justify-content: space-between;
 }
 
@@ -28,8 +35,8 @@ article section {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: rgb(172, 148, 148);
-  border: 2px solid rgb(54, 0, 0);
+  background-color: var(--lighter);
+  border: 2px solid var(--dark);
   height: 100%;
 }
 
@@ -55,7 +62,7 @@ img {
 footer {
   display: flex;
   justify-content: center;
-  border: 2px solid rgb(54, 0, 0);
+  border: 2px solid var(--lighter);
 }
 
 .link {
@@ -71,10 +78,10 @@ footer {
 }
 
 .project-title {
-  background-color: rgb(138, 54, 23);
+  background-color: var(--lighter);
   max-height: min-content;
   align-self: center;
-  border: 2px solid rgb(24, 114, 94);
+  border: 2px solid var(--dark);
   border-radius: 5px;
   padding: 4px;
 }

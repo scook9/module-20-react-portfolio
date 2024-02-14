@@ -2,12 +2,11 @@ import "../styles/Header.css";
 import "../styles/style.css";
 import { Link, useLocation } from "react-router-dom";
 
-function Header() {
+function Footer() {
   const currentPage = useLocation().pathname;
 
   return (
-    <header className="header">
-      <h1>Spencer's Portfolio</h1>
+    <footer className="header">
       <nav>
         <ul>
           <li>
@@ -54,8 +53,8 @@ function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </footer>
   );
 }
 
-export default Header;
+export default Footer;
