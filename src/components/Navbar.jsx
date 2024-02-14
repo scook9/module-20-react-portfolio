@@ -5,6 +5,7 @@ const styles = {
     margin: 20,
     background: "#e8eaf6",
   },
+
   heading: {
     background: "#9a74db",
     minHeight: 50,
@@ -15,7 +16,6 @@ const styles = {
   },
 };
 
-// In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {
   return (
     <header style={styles.card}>
