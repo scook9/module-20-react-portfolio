@@ -34,9 +34,9 @@ function Portfolio() {
             href="https://scook9.github.io/menYou/"
             target="_blank"
           >
-            <img src="./src/assets/menyou.png" alt="menYou project" />
+            <img src="./src/assets/star-ray-design.png" alt="menYou project" />
           </a>
-          <h3 class="project-title">Coming Soon</h3>
+          <h3 class="project-title">Star Ray Design</h3>
         </li>
         <li class="card">
           <img
