@@ -1,5 +1,5 @@
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
+import "../styles/style.css";
+
 const styles = {
   card: {
     margin: 20,

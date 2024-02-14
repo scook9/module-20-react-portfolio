@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import "../styles/style.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
