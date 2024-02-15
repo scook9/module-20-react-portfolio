@@ -1,4 +1,5 @@
 import "../styles/style.css";
+import profilePic from "../assets/profile-pic.jpg";
 
 function About() {
   return (
@@ -11,10 +12,7 @@ function About() {
         suggestions to improve the site or if you would like to learn more.
       </p>
       <li id="profile-pic">
-        <img
-          src="/assets/profile-pic.jpg"
-          alt="Spencer Cook's profile picture"
-        />
+        <img src={profilePic} alt="Spencer Cook's profile picture" />
       </li>
     </section>
   );
