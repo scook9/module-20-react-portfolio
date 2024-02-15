@@ -1,5 +1,5 @@
 import "../styles/style.css";
-import moduleOnePic from "../assets/module-1-challenge.PNG";
+import moduleOnePic from "../assets/module-1-challenge.png";
 import menyouPic from "../assets/menyou.png";
 import starRayDesignPic from "../assets/star-ray-design.png";
 
