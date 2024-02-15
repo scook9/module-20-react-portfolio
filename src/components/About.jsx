@@ -12,7 +12,7 @@ function About() {
       </p>
       <li id="profile-pic">
         <img
-          src="./src/assets/profile-pic.jpg"
+          src="/assets/profile-pic.jpg"
           alt="Spencer Cook's profile picture"
         />
       </li>
