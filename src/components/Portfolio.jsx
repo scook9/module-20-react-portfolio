@@ -1,7 +1,7 @@
 import "../styles/style.css";
-import moduleOnePic from "../assets/module-1-challenge.png";
-import menyouPic from "../assets/menyou.png";
-import starRayDesignPic from "../assets/star-ray-design.png";
+import moduleOnePic from "../assets/module-1-challenge.jpg";
+import menyouPic from "../assets/menyou.jpg";
+import starRayDesignPic from "../assets/star-ray-design.jpg";
 
 function Portfolio() {
   return (
