@@ -12,7 +12,8 @@ Welcome to my software developer portfolio that has been refactored to React.
 
 ## Usage
 
-- Visit the portfolio at:
+- Visit the portfolio at https://grand-malabi-e62a03.netlify.app/Portfolio
+  
 
 ## Credits
 
